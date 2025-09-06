@@ -5,8 +5,6 @@ void main() {
   print(blackPink.contains('로제')); // 값이 있는지 확인하기
   print(blackPink.toList()); // 리스트로 변환하기
 
-  List<String> blackPink2 = ['로제', '지수', '지수']
-
-
-
+  List<String> blackPink2 = ['로제', '지수', '지수'];
+  print(Set.from(blackPink2)); // List 타입을 Set 타입으로 변환
 }
