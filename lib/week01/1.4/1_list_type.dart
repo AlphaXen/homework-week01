@@ -8,5 +8,6 @@ void main() {
 
   print(blackPinkList.length); // 길이 변환
 
-  blackPinkList[3] = '로제 - 수정'; // 원소 변경
+  blackPinkList[3] = '코드팩토리'; // 3번 인덱스값 변경
+  print(blackPinkList);
 }
