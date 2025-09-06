@@ -4,5 +4,8 @@ void main() {
 
   print(number1 > number2); // false
   print(number1 < number2); // true
-  print(number)
+  print(number1 >= number2); // false
+  print(number1 <= number2); // true
+  print(number1 == number2); // false
+  print(number1 != number2); // true
 }
