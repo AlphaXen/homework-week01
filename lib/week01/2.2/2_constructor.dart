@@ -11,3 +11,9 @@ class Idol {
     print('저는 ${this.name}입니다.');
   }
 }
+
+void main() {
+  // name에 '블랙핑크' 저장
+  Idol blackPink = Idol('블랙핑크');
+  blackPink.sayName();
+}
