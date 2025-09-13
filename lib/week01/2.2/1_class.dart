@@ -13,3 +13,14 @@ class Idol {
     print('저는 ${name}입니다.');
   }
 }
+
+void main() {
+  // 변수 타입을 Idol로 지정하고
+  // Idol의 인스턴스를 생성할 수 있습니다.
+  // 인스턴스를 생성할 때는 함수를 실행하는 것처럼
+  // 인스턴스화 하고 싶은 클래스에 괄호를 열고 닫아줍니다.
+  Idol blackpink = Idol(); // Idol 인스턴스 생성
+
+  // 메서드를 실행합니다.
+  blackpink.sayName();
+}
