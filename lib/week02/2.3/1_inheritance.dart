@@ -31,5 +31,9 @@ class BoyGroup extends Idol {
 }
 
 void main() {
-  BoyGroup bts = BoyGroup('BTS', 7);
+  BoyGroup bts = BoyGroup('BTS', 7); // 생성자로 객체 생성
+
+  bts.sayName();
+  bts.sayMembersCount();
+  bts.sayMale();
 }
