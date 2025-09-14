@@ -8,4 +8,6 @@ class Cache<T> {
 
 // 제네릭에 입력된 값을 통해 data 변수의 타입이 자동으로 유추합니다.
 // reduce() 함수가 기억나지 않는다면 1.4.1절 'List'타입을 복습하세요.
-p
+print(cache.data.reduce((value, element) => value + element));
+}
+
