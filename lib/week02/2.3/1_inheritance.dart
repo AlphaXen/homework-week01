@@ -4,9 +4,11 @@ class Idol {
 
   Idol(this.name, this.membersCount);
 
-  void main() {
+  void sayName() {
     print('저는 ${this.name}입니다.');
   }
 
-  void sayName() {}
+  void sayMembersCount() {
+    print('${this.name} 멤버는 ${this.membersCount}명입니다.');
+  }
 }
