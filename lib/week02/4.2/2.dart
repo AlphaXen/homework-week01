@@ -6,4 +6,8 @@ void main() {
 
   // 1 출력
   print(x);
+  // 2 출력
+  print(y);
+  // 8 출력
+  print(z);
 }
