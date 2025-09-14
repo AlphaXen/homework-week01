@@ -5,4 +5,6 @@ void main() {
 
   //  name: 민지
   print('name: $name');
+  //  age: 19
+  print('age: $age');
 }
