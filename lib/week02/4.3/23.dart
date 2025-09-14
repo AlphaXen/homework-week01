@@ -1,1 +1,1 @@
-void switcher(dynamic)
+void main() {}
