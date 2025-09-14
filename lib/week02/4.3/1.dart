@@ -9,7 +9,12 @@ void main() {
     '수요일' => 'Wednesday',
     '목요일' => 'Thursday',
     '금요일' => 'Friday',
-    '토요일' => 'Satursday',
-    '일요일' => 'Monday',
-  }
+    '토요일' => 'Saturday',
+    '일요일' => 'Sunday',
+    // _는 defualt와 같은 의미로 사용됩니다.
+    _ => 'Not Found',
+  };
+
+  // Monday 출력
+  print(dayEnglish);
 }
