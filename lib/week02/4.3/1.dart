@@ -6,10 +6,10 @@ void main() {
     // '=>'를 사용하면 switch문 조건에 맞을 때 값을 반환할 수 있습니다.
     '월요일' => 'Monday',
     '화요일' => 'Tuesday',
-    '수요일' => 'Wedsday',
-    '목요일' => 'Monday',
-    '금요일' => 'Monday',
-    '토요일' => 'Monday',
+    '수요일' => 'Wednesday',
+    '목요일' => 'Thursday',
+    '금요일' => 'Friday',
+    '토요일' => 'Satursday',
     '일요일' => 'Monday',
   }
 }
