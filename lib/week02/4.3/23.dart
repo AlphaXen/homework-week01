@@ -27,3 +27,8 @@ void switcher(dynamic anything) {
       print('no match');
   }
 }
+
+void main() {
+  // match: aaa 출력
+  switcher('aaa');
+}
