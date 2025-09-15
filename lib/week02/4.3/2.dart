@@ -1,5 +1,3 @@
-import 'package:flutter/scheduler.dart';
-
 void switcher(dynamic anything) {
   switch (anything) {
     // 정확히 'aaa' 문자열만 매치합니다.
@@ -40,5 +38,5 @@ void main() {
   // match: (String: 민지, int: 19) 출력
   switcher(('민지', 19));
   // no match 출력
-  switcher('aaa');
+  switcher(8);
 }
