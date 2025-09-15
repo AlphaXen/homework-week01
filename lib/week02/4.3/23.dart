@@ -33,8 +33,8 @@ void main() {
   switcher('aaa');
   // match: [1, 2] 출력
   switcher([1, 2]);
-  // match: [_, _, _] 출력
-  switcher('');
+  // match: [_. _. _] 출력
+  switcher([3, 4, 5]);
   // match: aaa 출력
   switcher('aaa');
   // match: aaa 출력
