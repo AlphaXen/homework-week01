@@ -31,4 +31,14 @@ void switcher(dynamic anything) {
 void main() {
   // match: aaa 출력
   switcher('aaa');
+  // match: aaa 출력
+  switcher('aaa');
+  // match: aaa 출력
+  switcher('aaa');
+  // match: aaa 출력
+  switcher('aaa');
+  // match: aaa 출력
+  switcher('aaa');
+  // match: aaa 출력
+  switcher('aaa');
 }
