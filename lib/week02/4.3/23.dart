@@ -38,7 +38,7 @@ void main() {
   // match: [int 6, int 7] 출력
   switcher([6, 7]);
   // match: (String: 민지, int: 19) 출력
-  switcher('');
-  // match: aaa 출력
+  switcher(('민지', 19));
+  // no match 출력
   switcher('aaa');
 }
