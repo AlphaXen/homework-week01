@@ -18,8 +18,9 @@ class MyApp extends StatelessWidget {
               // 주색상 지정
               foregroundColor: Colors.red,
             ),
-
-          )
+            // 버튼에 넣을 위젯
+            child: Text('텍스트 버튼'),
+          ),
         ),
       ),
     );
