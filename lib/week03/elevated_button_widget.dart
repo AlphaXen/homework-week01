@@ -14,7 +14,9 @@ class MyApp extends StatelessWidget {
             // 클릭 시 실행할 함수
             onPressed: () {},
             // 버튼 스타일링
-            style: ElevatedButton.styleFrom,
+            style: ElevatedButton.styleFrom(
+              back
+            ),
           )
         ),
       ),
