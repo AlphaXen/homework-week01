@@ -15,9 +15,11 @@ class MyApp extends StatelessWidget {
             onPressed: () {},
             // 버튼 스타일링
             style: ElevatedButton.styleFrom(
-              backgroundColor: Colors.red
+              backgroundColor: Colors.red,
             ),
-          )
+            // 버튼에 들어갈 위젯
+            child: Text('엘리베이트 버튼'),
+          ),
         ),
       ),
     );
