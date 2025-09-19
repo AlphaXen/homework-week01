@@ -7,6 +7,9 @@ void main() {
       home: Scaffold(
         body: SizedBox(
           width: double.infinity,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+          ),
         )
       )
     )
