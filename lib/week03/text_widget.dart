@@ -10,7 +10,19 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: // 여기에 예제 코드 작성하기
+          child: Text(
+            // 작성하고 싶은 글
+            '코드팩토리',
+            // 글자에 크기 적용
+            style: TextStyle(
+              // 글자 크기
+              fontSize: 16.0,
+              // 글자 굵기
+              fontWeight: FontWeight.w700,
+              // 글자 색상
+              color: Colors.blue,
+            ),
+          ),
         ),
       ),
     );
