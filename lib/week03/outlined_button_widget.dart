@@ -11,7 +11,12 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         body: Center(
           child: OutlinedButton(
-            // 
+            // 클릭 시 실행할 함수
+            onPressed: () {},
+            // 버튼 스타일
+            style: OutlinedButton.styleFrom(
+              foregroundBuilder: Colors.red,
+            ),
           )
         ),
       ),
