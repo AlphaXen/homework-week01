@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
             onPressed: () {},
             // 버튼 스타일링
             style: ElevatedButton.styleFrom(
-              back
+              backgroundColor: Colors.red
             ),
           )
         ),
