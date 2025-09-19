@@ -4,8 +4,12 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        body: Center
-      )
-    )
-  )
+        body: Center(
+
+          // 하나의 위젯 가운데 정렬 가능
+          child: Text('Code Factory'),
+        ),
+      ),
+    ),
+  );
 }
