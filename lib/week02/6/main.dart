@@ -6,5 +6,13 @@ void main() {
 
 class MyApp extends StatelessWidget {
   @override
-  Widget build
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        body: Center(
+          child: // 여기에 예제 코드 작성하기
+        ),
+      ),
+    );
+  }
 }
