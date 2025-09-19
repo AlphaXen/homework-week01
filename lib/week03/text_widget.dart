@@ -1,6 +1,14 @@
-import 'dart:ui';
+void main() {
+  runApp(MyApp());
+}
 
-Text(
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        body: Center(
+          child: Text(
   // 작성하고 싶은 글
   '코드팩토리',
   // 글자에 스타일 적용
@@ -13,3 +21,8 @@ Text(
     color: Colors.blue,
   ),
 )
+        ),
+      ),
+    );
+  }
+}
