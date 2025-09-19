@@ -11,6 +11,8 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         body: Center(
           child: TextButton(
+            // 클릭 시 실행
+            onPressed: () {},
             
           )
         ),
