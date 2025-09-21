@@ -28,6 +28,7 @@ class RowWidgetExample extends StatelessWidget {
               ),
               // SizedBox는 일반적으로 공백을
               // 생성할 때 사용
+              const SizedBox(width: 12.0,)
             ],
           ),
         )
