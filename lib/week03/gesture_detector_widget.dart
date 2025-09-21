@@ -18,6 +18,10 @@ class MyApp extends StatelessWidget {
               // 출력결과는 안드로이드 스튜디오의 [Run] 탭에서 확인 가능합니다.
               print('on tap');
             },
+            // 두 번 탭했을 때 실행할 함수
+            onDoubleTap: () {
+              print('on double tap');
+            },
           )
         ),
       ),
