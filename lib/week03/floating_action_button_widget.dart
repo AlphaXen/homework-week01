@@ -5,6 +5,8 @@ void main() {
 }
 
 class FloatingActionButtonExample extends StatelessWidget {
+  const FloatingActionButtonExample({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

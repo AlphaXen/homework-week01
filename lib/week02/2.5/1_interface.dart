@@ -6,11 +6,11 @@ class GirlGroup implements Idol {
   GirlGroup(this.name, this.membersCount);
 
   void sayName() {
-    print('저는 여자 아이돌 ${name}입니다.');
+    print('저는 여자 아이돌 $name입니다.');
   }
 
   void sayMembersCount() {
-    print('${name} 멤버는 ${membersCount}명입니다.');
+    print('$name 멤버는 $membersCount명입니다.');
   }
 }
 

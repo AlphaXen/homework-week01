@@ -8,7 +8,7 @@ class Idol {
   Idol(String name) : name = name;
 
   void sayName() {
-    print('저는 ${name}입니다.');
+    print('저는 $name입니다.');
   }
 }
 

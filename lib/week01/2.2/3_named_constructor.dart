@@ -15,7 +15,7 @@ class Idol {
   membersCount = map['membersCount'];
 
   void sayName() {
-    print('저는 ${name}입니다. ${name} 멤버는ㄴ ${membersCount}명입니다.');
+    print('저는 $name입니다. $name 멤버는ㄴ $membersCount명입니다.');
   }
 }
 
