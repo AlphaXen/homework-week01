@@ -8,9 +8,9 @@ class Idol {
   void sayName() {
     // 클래스 내부의 속성을 지칭하고 싶을 때는 this 키워드를 사용하면 됩니다.
     // 결과적으로 this.name은 Idol 클래스의 name 변수를 지칭합니다.
-    print('저는 ${this.name}입니다.');
-    // 스코프 안에 같은 속성 이름이 하나만 존재한다면 this를 생략할 수 있습니다.
     print('저는 ${name}입니다.');
+    // 스코프 안에 같은 속성 이름이 하나만 존재한다면 this를 생략할 수 있습니다.
+    print('저는 $name입니다.');
   }
 }
 

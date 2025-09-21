@@ -11,17 +11,21 @@ abstract class Idol {
 
 // implement 키워드를 사용해 추상 클래스를 구현하는 클래스
 class GirlGroup implements Idol {
+  @override
   final String name;
+  @override
   final int membersCount;
 
   GirlGroup(this.name, this.membersCount);
 
+  @override
   void sayName() {
-    print('저는 여자 아이돌 ${this.name}입니다.');
+    print('저는 여자 아이돌 ${name}입니다.');
   }
 
+  @override
   void sayMembersCount() {
-    print('${this.name} 멤버는 ${this.membersCount}명입니다.');
+    print('${name} 멤버는 ${membersCount}명입니다.');
   }
 }
 

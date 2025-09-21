@@ -5,17 +5,17 @@ class Idol {
   // 생성자
   Idol(String name, int membersCount)
   // 1개 이상의 변수를 저장하고 싶을 때는 , 기호로 연결해주면 됩니다.
-  : this.name = name,
-    this.membersCount;
+  : name = name,
+    membersCount;
   // 네임드 생성자
   // {클래스명.네임드 생성자명} 형식
   // 나머지 과정은 기본 생성자와 같습니다.
   Idol.fromMap(Map<String, dynamic> map)
-  : this.name = map['name'],
-  this.membersCount = map['membersCount'];
+  : name = map['name'],
+  membersCount = map['membersCount'];
 
   void sayName() {
-    print('저는 ${this.name}입니다. ${this.name} 멤버는ㄴ ${this.membersCount}명입니다.');
+    print('저는 ${name}입니다. ${name} 멤버는ㄴ ${membersCount}명입니다.');
   }
 }
 

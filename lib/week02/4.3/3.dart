@@ -10,5 +10,4 @@ void main() {
     case false:
       print('false');
   }
-  ;
 }

@@ -5,10 +5,10 @@ class Idol {
   // 생성자 선언
   // 클래스와 같은 이름이어야 합니다.
   // 함수의 매개변수를 선언하는 것처럼 매개변수를 지정해줍니다.
-  Idol(String name) : this.name = name;
+  Idol(String name) : name = name;
 
   void sayName() {
-    print('저는 ${this.name}입니다.');
+    print('저는 ${name}입니다.');
   }
 }
 
