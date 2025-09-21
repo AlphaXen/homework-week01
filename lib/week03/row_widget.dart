@@ -17,7 +17,7 @@ class RowWidgetExample extends StatelessWidget {
             // 주축 정렬 지정
             mainAxisAlignment: MainAxisAlignment.start,
             // 반대축 정렬 지정
-            mainAxisAlignment,
+            mainAxisAlignment: MainAxisAlignment.center,
           ),
         )
       )
