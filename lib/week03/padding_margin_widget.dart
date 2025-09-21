@@ -21,9 +21,21 @@ class MyApp extends StatelessWidget {
               color: Colors.blue,
 
               // 마진 적용 위치
-              margin: EdgeInset.all(16.0),
+              margin: EdgeInsets.all(16.0),
+
+              // 패딩 적용
+              child: Padding(
+                padding: EdgeInsets.all(16.0),
+
+                // 패딩이 적용된 빨간 컨테이너
+                child: Container(
+                  color: Colors.red,
+                  width: 50,
+                  height: 50,
+                ),
+              ),
             ),
-          )
+          ),
         ),
       ),
     );
