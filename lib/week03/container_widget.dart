@@ -29,8 +29,9 @@ class MyApp extends StatelessWidget {
             ),
             // 높이
             height: 200.0,
-            
-          )
+            // 너비
+            width: 100.0,
+          ),
         ),
       ),
     );
