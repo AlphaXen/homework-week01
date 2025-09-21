@@ -26,6 +26,8 @@ class RowWidgetExample extends StatelessWidget {
                 width: 50.0,
                 color: Colors.red,
               ),
+              // SizedBox는 일반적으로 공백을
+              // 생성할 때 사용
             ],
           ),
         )
