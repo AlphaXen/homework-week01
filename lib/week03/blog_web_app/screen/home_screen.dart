@@ -34,13 +34,13 @@ class HomeScreen extends StatelessWidget {
 
             // 홈버튼 아이콘 설정
             icon: Icon(
-              Icon.home,
+              Icons.home,
             ),
           ),
         ],
       ),
       body: WebViewWidget(
-        controller: WebViewController,
+        controller: webViewController,
       ),
     );
   }
