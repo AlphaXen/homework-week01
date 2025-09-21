@@ -8,7 +8,14 @@ class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debug
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        body: Container(
+          decoration: BoxDecoration(
+            color: Color(0xFFF99231),
+          ),
+        )
+      )
     )
   }
 }
