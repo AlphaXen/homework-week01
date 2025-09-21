@@ -21,6 +21,18 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: Colors.orange,
         title: Text('Code Factory'),
         centerTitle: true,
+
+        // Appbar에 액션 버튼을 추가할 수 있는 매개변수
+        actions: [
+          IconButton(
+
+            // 아이콘을 눌렀을 때 실행할 콜백 함수
+            onPressed: () {
+              // 웹뷰 위젯에서 사이트 전환하기
+              WebViewController.loadRe
+            },
+          )
+        ]
       ),
       body: WebViewWidget(
         controller: WebViewController,
