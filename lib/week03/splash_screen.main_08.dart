@@ -14,6 +14,14 @@ class SplashScreen extends StatelessWidget {
           decoration: BoxDecoration(
             color: Color(0xFFF99231),
           ),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+              )
+            ],
+          ),
         )
       )
     )
