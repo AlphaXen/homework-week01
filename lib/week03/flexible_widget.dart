@@ -26,9 +26,13 @@ class MyApp extends StatelessWidget {
               ),
               Flexible(
                 flex: 1,
-              )
+                // 빨간색 Container
+                child: Container(
+                  color: Colors.red,
+                ),
+              ),
             ],
-          )
+          ),
         ),
       ),
     );
