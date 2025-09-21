@@ -36,8 +36,8 @@ class RowWidgetExample extends StatelessWidget {
               ),
             ],
           ),
-        )
-      )
-    )
+        ),
+      ),
+    );
   }
 }
