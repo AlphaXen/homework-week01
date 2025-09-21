@@ -1,19 +1,20 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(FloatingActionButtonExample());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
+class FloatingActionButtonExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Center(
-          child: 
+        floatingActionButton: FloatingActionButton(
+          // 클릭 했을 때 실행할 함수
+          onPressed: () {},
+          child: Text('클릭'),
         ),
+        body: Container(),
       ),
     );
   }
