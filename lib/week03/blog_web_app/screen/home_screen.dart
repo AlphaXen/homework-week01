@@ -31,8 +31,13 @@ class HomeScreen extends StatelessWidget {
               // 웹뷰 위젯에서 사이트 전환하기
               WebViewController.loadRequest(Uri.parse('https://blog.codefactory.ai'));
             },
-          )
-        ]
+
+            // 홈버튼 아이콘 설정
+            icon: Icon(
+              Icon.home,
+            ),
+          ),
+        ],
       ),
       body: WebViewWidget(
         controller: WebViewController,
