@@ -5,6 +5,8 @@ void main() {
 }
 
 class ColumnWidgetExample extends StatelessWidget {
+  const ColumnWidgetExample({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

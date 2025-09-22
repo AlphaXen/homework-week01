@@ -5,6 +5,8 @@ void main() {
 }
 
 class RowWidgetExample extends StatelessWidget {
+  const RowWidgetExample({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
