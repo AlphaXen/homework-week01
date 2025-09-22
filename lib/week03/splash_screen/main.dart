@@ -23,7 +23,7 @@ class SplashScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Image.asset(
-                    'assets.logo.png',
+                    'assets/logo.png',
                     width: 200,
                   ),
                   CircularProgressIndicator(
