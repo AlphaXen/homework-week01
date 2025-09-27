@@ -6,8 +6,11 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: PageView(
-        
+      body: PageView( // PageView 추가
+        children: [1, 2, 3, 4, 5] // 샘플 리스트 생성
+          .map(
+            (number) => Image.asset('asset/img/image_')
+          )
       ) // PageView 추가
 
 
