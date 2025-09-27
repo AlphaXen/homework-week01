@@ -16,6 +16,7 @@ class HomeScreen extends StatelessWidget {
           .map( // 위젯으로 매핑
             (number) => Image.asset('asset/img/image_$number.jpeg',
             fit: BoxFit.cover, // BoxFit.cover 설정
+            ),
           )
           .toList(),
       ), 
