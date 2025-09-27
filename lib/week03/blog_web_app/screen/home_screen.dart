@@ -5,6 +5,5 @@ class HomeScreen extends StatelessWidget {
 
   // WebViewController 선언
   WebViewController webViewController = WebViewController();
-
-  
 }
+
