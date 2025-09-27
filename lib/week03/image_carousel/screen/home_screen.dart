@@ -6,7 +6,12 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text('Home Screen'),
+      body: PageView(
+        
+      ) // PageView 추가
+
+
+      ),
     );
   }
 }
