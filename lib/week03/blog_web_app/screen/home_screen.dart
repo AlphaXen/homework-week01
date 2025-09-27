@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
   // JavaScript가 제한 없이 실행될 수 있도록 합니다.
   ..setJavaScriptMode(JavaScriptMode.unrestricted);
 
-  HomeScreen({Key? key}) : super(key: key);
+  HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
