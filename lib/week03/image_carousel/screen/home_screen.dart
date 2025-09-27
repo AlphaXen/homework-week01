@@ -23,7 +23,21 @@ class _HomeScreenState extends State<HomeScreen> {
     Timer.periodic( // Timer.periodic() 등록
       Duration(seconds: 3),
       (timer) {
-        print('실행!');
+        int? nextPage = pageController.page?.toInt();
+
+        if (nextPage == null) {
+          return;
+        }
+        if (nextPage == 4) {
+          nextPage = 0;
+        } else {
+          nextPage++;
+        }
+        pageController.animateToPage(
+          nextPage,
+          duration: Duration(milliseconds: 500),
+          curve: Curves.ease,
+        );
       },
     );
   }
