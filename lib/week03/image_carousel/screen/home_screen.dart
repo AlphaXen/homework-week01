@@ -35,7 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
         } else {
           nextPage++;
         }
-        pageController.animateToPage(
+        pageController.animateToPage( // 페이지 변경
           nextPage,
           duration: Duration(milliseconds: 500),
           curve: Curves.ease,
