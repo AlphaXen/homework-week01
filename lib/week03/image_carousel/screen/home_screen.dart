@@ -6,6 +6,8 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // 상태바 색상 변경
+    // 상태바가 이미 
     return Scaffold(
       body: PageView( // PageView 추가
         children: [1, 2, 3, 4, 5] // 샘플 리스트 생성
