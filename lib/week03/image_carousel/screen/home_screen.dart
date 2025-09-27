@@ -16,9 +16,9 @@ class _HomeScreenState extends State<HomeScreen> {
   //  initState() 함수 등록
   @override
   void initState() {
-    super.initState();
+    super.initState(); // 부모 initState() 실행
 
-    Timer.periodic(
+    Timer.periodic( // Timer.periodic() 등록
       Duration(seconds: 3),
       (timer) {
         print('실행!');
