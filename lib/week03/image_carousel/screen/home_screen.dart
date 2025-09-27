@@ -8,7 +8,8 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     // 상태바 색상 변경
     // 상태바가 이미 흰색이면 light 대신 dark를 주어 검정으로 바꿔주세요.
-    SystemChrome.setSystemUIOverlayStyle(syetemUi)
+    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light);
+    
     return Scaffold(
       body: PageView( // PageView 추가
         children: [1, 2, 3, 4, 5] // 샘플 리스트 생성
