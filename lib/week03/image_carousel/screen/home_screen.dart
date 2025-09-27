@@ -11,10 +11,8 @@ class HomeScreen extends StatelessWidget {
           .map(
             (number) => Image.asset('asset/img/image_$number.jpeg'),
           )
-      ) // PageView 추가
-
-
-      ),
+          .toList(),
+      ), 
     );
   }
 }
