@@ -36,7 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return Scaffold(
       body: PageView( // PageView 추가
-        controller: pageController,
+        controller: pageController, // PageController 등록
         children: [1, 2, 3, 4, 5] // 샘플 리스트 생성
           .map( // 위젯으로 매핑
             (number) => Image.asset('asset/img/image_$number.jpeg',
