@@ -41,7 +41,10 @@ class HomeScreen extends StatelessWidget {
             },
 
             // 홈버튼 아이콘 설정
-          )
+            icon: Icon(
+              Icons.home,
+            ),
+          ),
         ],
       ),
       body: WebViewWidget( // 웹뷰 위젯 추가하기 (에러 잠시 무시하기)
