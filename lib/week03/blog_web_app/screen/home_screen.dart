@@ -34,7 +34,13 @@ class HomeScreen extends StatelessWidget {
           IconButton(
 
             // 아이콘을 눌렀을 때 실행할 콜백 함수
-            on
+            onPressed: () {
+              
+              // 웹뷰 위젯에서 사이트 전환하기
+              webViewController.loadRequest(Uri.parse('https://blog.codefactory.ai'));
+            },
+
+            // 홈버튼 아이콘 설정
           )
         ],
       ),
