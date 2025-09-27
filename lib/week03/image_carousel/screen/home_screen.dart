@@ -22,8 +22,8 @@ class _HomeScreenState extends State<HomeScreen> {
       Duration(seconds: 3),
       (timer) {
         print('실행!');
-      }
-    )
+      },
+    );
   }
 
   @override
