@@ -10,7 +10,7 @@ class HomeScreen extends StatelessWidget {
   ..loadRequest(Uri.parse('https://blog.codefactory.ai'))
 
   // JavaScript가 제한 없이 실행될 수 있도록 합니다.
-  ..setJavaScriptMode(JavaScriptMode.ursetricted)
+  ..setJavaScriptMode(JavaScriptMode.unrestricted);
 
   HomeScreen({Key? key}) : super(key: key);
 
