@@ -9,6 +9,7 @@ class HomeScreen extends StatefulWidget {
   State<HomeScreen> createState() => _HomeScreenState();
 }
 
+// _HomeScreenState 정의
 class _HomeScreenState extends State<HomeScreen> {
 
   @override
