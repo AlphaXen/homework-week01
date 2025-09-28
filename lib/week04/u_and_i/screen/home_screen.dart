@@ -36,7 +36,22 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
 void onHeartPressed() { // 함수 눌렀을 때 실행할 함수
-  
+  showCupertinoDialog(
+    context: context,
+    builder: (BuildContext context) {
+      return Align(
+        alignment: Alignment.bottomCenter,
+        child: Container(
+          color: Colors.white,
+          height: 300,
+          child: CupertinoDatePicker(
+            mode: CupertinoDatePickerMode.date,
+            onDateTimeChanged: (DateTime date),
+          )
+        ),
+      )
+    }
+  )
 }
 }
 
