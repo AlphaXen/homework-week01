@@ -33,11 +33,12 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 }
 
-void onHeartPressed() {
+void onHeartPressed() { // 함수 눌렀을 때 실행할 함수
   print('클릭');
 }
 
 class _DDay extends StatelessWidget {
+  // 하트 눌렀을 때 실행할 함수
   final GestureTapCallback.onHeartPressed;
   @override
   Widget build(BuildContext context) {
