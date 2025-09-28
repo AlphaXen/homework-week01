@@ -27,7 +27,7 @@ void main() {
             fontSize: 20.0
           ),
         ),
-      );
+      ),
       home: HomeScreen(),
     ),
   );
