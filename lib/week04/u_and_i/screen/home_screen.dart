@@ -34,7 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
      ),
     );
   }
-}
+
 void onHeartPressed() { // 함수 눌렀을 때 실행할 함수
   showCupertinoDialog(
     context: context,
@@ -58,7 +58,7 @@ void onHeartPressed() { // 함수 눌렀을 때 실행할 함수
     barrierDismissible: true,
   );
 }
-
+}
 
 class _DDay extends StatelessWidget {
   // 하트 눌렀을 때 실행할 함수
