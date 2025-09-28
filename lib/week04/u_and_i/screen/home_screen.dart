@@ -53,9 +53,10 @@ void onHeartPressed() { // 함수 눌렀을 때 실행할 함수
             },
           )
         ),
-      )
-    }
-  )
+      );
+    },
+    barrierDismissible: true,
+  );
 }
 }
 
