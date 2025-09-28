@@ -44,7 +44,7 @@ class _DDay extends StatelessWidget {
   _DDay({
     required this.onHeartPressed, // 상위 함수에서 입력받기
   });
-  
+
   @override
   Widget build(BuildContext context) {
     // 테마 불러오기
@@ -68,7 +68,7 @@ class _DDay extends StatelessWidget {
         const SizedBox(height: 16.0),
         IconButton( // 하트 아이콘 버튼
           iconSize: 60.0,
-          onPressed: () {},
+          onPressed: onHeartPressed, // 아이콘을 눌렀을 때 실행할 함수
           icon: Icon(
             Icons.favorite,
             color: Colors.red, // 빨간 색상으로 변경
