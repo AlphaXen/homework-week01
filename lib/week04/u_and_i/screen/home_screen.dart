@@ -81,6 +81,7 @@ class _DDay extends StatelessWidget {
         ),
         const SizedBox(height: 16.0),
         Text(
+          // DDay 계산하기
           'D+${DateTime(now.year, now.month, now.day).difference(firstDay).inDays + 1}',
           style: textTheme.headlineMedium, // headline2 스타일 적용
         ),
