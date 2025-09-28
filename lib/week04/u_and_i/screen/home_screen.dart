@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({super.key});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -64,7 +64,7 @@ class _DDay extends StatelessWidget {
   // 하트 눌렀을 때 실행할 함수
   final GestureTapCallback onHeartPressed;
   final DateTime firstDay; // 사귀기 시작한 날
-  _DDay({
+  const _DDay({
     required this.onHeartPressed, // 상위 함수에서 입력받기
     required this.firstDay, // 날짜 변수로 입력받기
   });
