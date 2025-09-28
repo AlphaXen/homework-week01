@@ -81,9 +81,10 @@ flutter:
      - family: parisienne
      - fonts:
         asset: asset/font/Parisienne-Regular.ttf
-      - family: parisienne
-     - fonts:
-        asset: asset/font/Parisienne-Regular.ttf
+
+     - family: sunflower
+        fonts:
+        -asset: asset/font/Parisienne-Regular.ttf
   
 
   #     fonts:
