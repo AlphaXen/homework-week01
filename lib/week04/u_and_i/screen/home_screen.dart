@@ -35,16 +35,16 @@ class _DDay extends StatelessWidget {
         const SizedBox(height: 16.0,),
         Text(
           'U&I', // 최상단 U&I 글자
-          style: textTheme.headlineLarge,
+          style: textTheme.headlineLarge, // headline1 스타일 적용
         ),
         const SizedBox(height: 16.0),
         Text( // 두 번째 글자
           '우리 처음 만난 날',
-          style: textTheme.bodyLarge,
+          style: textTheme.bodyLarge, // bodyText1 스타일 적용
         ),
         Text(
           '2021.11.23',
-          style: textTheme.bodyMedium,
+          style: textTheme.bodyMedium, // bodyText2 스타일 적용
         ),
         const SizedBox(height: 16.0),
         IconButton( // 하트 아이콘 버튼
@@ -52,13 +52,13 @@ class _DDay extends StatelessWidget {
           onPressed: () {},
           icon: Icon(
             Icons.favorite,
-            color: Colors.red,
+            color: Colors.red, // 빨간 색상으로 변경
           ),
         ),
         const SizedBox(height: 16.0),
         Text(
           'D+365',
-          style: textTheme.headlineMedium,
+          style: textTheme.headlineMedium, // headline2 스타일 적용
         ),
       ],
     );
