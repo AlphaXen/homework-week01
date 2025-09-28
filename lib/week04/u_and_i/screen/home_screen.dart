@@ -35,7 +35,7 @@ class _DDay extends StatelessWidget {
 class _CoupleImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return Center( // 이미지 중앙 정렬
       child: Image.asset(
         'asset/img/middle_image.png',
 
