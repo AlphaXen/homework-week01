@@ -35,8 +35,8 @@ class _DDay extends StatelessWidget {
 class _CoupleImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return center(
-      
+    return Center(
+
     )
   }
 }
