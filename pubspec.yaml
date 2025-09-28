@@ -82,7 +82,7 @@ flutter:
      - fonts:
         asset: asset/font/Parisienne-Regular.ttf
 
-    - family:
+  
 
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
