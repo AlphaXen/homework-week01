@@ -19,10 +19,15 @@ void main() {
             fontWeight: FontWeight.w700,
           ),
           bodyLarge: TextStyle(
-            
-          )
-        )
-      )
+            color: Colors.white,
+            fontSize: 30.0,
+          ),
+          bodyMedium: TextStyle(
+            color: Colors.white,
+            fontSize: 20.0
+          ),
+        ),
+      );
       home: HomeScreen(),
     ),
   );
