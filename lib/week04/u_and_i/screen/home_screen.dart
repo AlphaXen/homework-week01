@@ -9,7 +9,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  DateTime firsrtDay = DateTime.now();
+  DateTime firstDay = DateTime.now();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -26,7 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
           _DDay(
             // 하트 눌렀을 때 실행할 함수 전달하기
             onHeartPressed: onHeartPressed,
-            firstDay: firsrtDay, // 7
+            firstDay: firstDay, // 7
           ),
           _CoupleImage(),
         ],
@@ -34,7 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
      ),
     );
   }
-
+}
 void onHeartPressed() { // 함수 눌렀을 때 실행할 함수
   showCupertinoDialog(
     context: context,
@@ -48,7 +48,7 @@ void onHeartPressed() { // 함수 눌렀을 때 실행할 함수
             mode: CupertinoDatePickerMode.date,
             onDateTimeChanged: (DateTime date) {
               setState(() {
-                firstDay = Date;
+                firstDay = date;
               });
             },
           )
@@ -58,7 +58,7 @@ void onHeartPressed() { // 함수 눌렀을 때 실행할 함수
     barrierDismissible: true,
   );
 }
-}
+
 
 class _DDay extends StatelessWidget {
   // 하트 눌렀을 때 실행할 함수
