@@ -79,6 +79,8 @@ flutter:
   # example:
   fonts:
      - family: parisienne
+     - fonts:
+     asset: 
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
