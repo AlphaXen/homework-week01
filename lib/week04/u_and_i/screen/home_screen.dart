@@ -52,11 +52,13 @@ class _DDay extends StatelessWidget {
           onPressed: () {},
           icon: Icon(
             Icons.favorite,
+            color: Colors.red,
           ),
         ),
         const SizedBox(height: 16.0),
         Text(
           'D+365',
+          style: textTheme.headlineMedium,
         ),
       ],
     );
