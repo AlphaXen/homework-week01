@@ -35,6 +35,7 @@ class _DDay extends StatelessWidget {
         const SizedBox(height: 16.0,),
         Text(
           'U&I', // 최상단 U&I 글자
+          style: textTheme.headlineLarge,
         ),
         const SizedBox(height: 16.0),
         Text( // 두 번째 글자
