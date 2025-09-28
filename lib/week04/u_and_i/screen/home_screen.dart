@@ -45,10 +45,16 @@ class _DDay extends StatelessWidget {
         IconButton(
           iconSize: 60.0,
           onPressed: () {},
-          
-        )
-      ]
-    )
+          icon: Icon(
+            Icons.favorite,
+          ),
+        ),
+        const SizedBox(height: 16.0),
+        Text(
+          'D+365',
+        ),
+      ],
+    );
   }
 }
 
