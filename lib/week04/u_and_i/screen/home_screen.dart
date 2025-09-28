@@ -22,7 +22,9 @@ class _HomeScreenState extends State<HomeScreen> {
         // 반대축 최대 크기로 늘리기
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          _DDay(),
+          _DDay(
+            onHeartPressed: onHeartPressed,
+          ),
           _CoupleImage(),
         ],
       ),
