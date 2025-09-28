@@ -44,6 +44,7 @@ class _DDay extends StatelessWidget {
         ),
         Text(
           '2021.11.23',
+          style: textTheme.bodyMedium,
         ),
         const SizedBox(height: 16.0),
         IconButton( // 하트 아이콘 버튼
