@@ -36,6 +36,12 @@ class _CoupleImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
+      child: Image.asset(
+        'asset/img/middle_image.png',
+
+        // 화면의 반만큼 높이 구현
+        height: MediaQuery.of(context).size.height / 2,
+      ),
 
     )
   }
