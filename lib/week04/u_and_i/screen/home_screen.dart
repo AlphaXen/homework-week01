@@ -44,6 +44,7 @@ class _DDay extends StatelessWidget {
   _DDay({
     required this.onHeartPressed, // 상위 함수에서 입력받기
   });
+  
   @override
   Widget build(BuildContext context) {
     // 테마 불러오기
