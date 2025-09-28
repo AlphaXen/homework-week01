@@ -45,13 +45,14 @@ class _DDay extends StatelessWidget {
   final DateTime firstDay; // 사귀기 시작한 날
   _DDay({
     required this.onHeartPressed, // 상위 함수에서 입력받기
-    required this.firstDay, // 날자 
+    required this.firstDay, // 날짜 변수로 입력받기
   });
 
   @override
   Widget build(BuildContext context) {
     // 테마 불러오기
     final textTheme = Theme.of(context).textTheme;
+    final now = DateTime.now(); // 현재 날짜 시간
     return Column(
       children: [
         const SizedBox(height: 16.0,),
