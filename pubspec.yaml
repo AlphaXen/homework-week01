@@ -80,7 +80,7 @@ flutter:
   fonts:
      - family: parisienne
      - fonts:
-     asset: 
+        asset: asset/font/
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
