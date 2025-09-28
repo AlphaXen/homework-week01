@@ -32,10 +32,10 @@ class _DDay extends StatelessWidget {
       children: [
         const SizedBox(height: 16.0,),
         Text(
-          'U&I',
+          'U&I', // 최상단 U&I 글자
         ),
         const SizedBox(height: 16.0),
-        Text(
+        Text( // 두 번째 글자
           '우리 처음 만난 날',
         ),
         Text(
