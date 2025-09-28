@@ -33,6 +33,10 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 }
 
+void onHeartPressed() {
+  print('클릭');
+}
+
 class _DDay extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
