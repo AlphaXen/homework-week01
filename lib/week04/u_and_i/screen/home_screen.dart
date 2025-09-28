@@ -1,5 +1,12 @@
 import 'package:flutter/material.dart';
 
+class HomeScreen extends StatefulWidget {
+  const HomeScreen({key? key}) : super(key: key);
+
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
