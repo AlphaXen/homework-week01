@@ -34,12 +34,12 @@ class _HomeScreenState extends State<HomeScreen> {
      ),
     );
   }
-}
 
 void onHeartPressed() { // 함수 눌렀을 때 실행할 함수
   setState(() {
     firstDay = firstDay.subract(Duration(days: 1));
   });
+}
 }
 
 class _DDay extends StatelessWidget {
