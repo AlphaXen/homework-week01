@@ -38,6 +38,7 @@ void onHeartPressed() {
 }
 
 class _DDay extends StatelessWidget {
+  final GestureTapCallback.onHeartPressed;
   @override
   Widget build(BuildContext context) {
     // 테마 불러오기
