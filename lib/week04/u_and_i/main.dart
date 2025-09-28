@@ -7,7 +7,20 @@ void main() {
       theme: ThemeData(
         fontFamily: 'sunflower',
         textTheme: TextTheme(
-          
+          headlineLarge: TextStyle(
+            color: Colors.white,
+            fontSize: 80.0,
+            fontWeight: FontWeight.w700,
+            fontFamily: 'parisienne',
+          ),
+          headlineMedium: TextStyle(
+            color: Colors.white,
+            fontSize: 50.0,
+            fontWeight: FontWeight.w700,
+          ),
+          bodyLarge: TextStyle(
+            
+          )
         )
       )
       home: HomeScreen(),
